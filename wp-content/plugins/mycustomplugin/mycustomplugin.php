@@ -15,4 +15,6 @@ if(!defined('ABSPATH')){
 	exit;
 }
 require_once (plugin_dir_path(__FILE__).'include/mycustomplugin-init.php');
+require_once (plugin_dir_path(__FILE__).'include/mycustomplugin-shortcode.php');
+
 ?>
